@@ -17,7 +17,7 @@ services:
       - "${POSTGRES_PORT}:5432"
 
   rasa:
-    image: rasa/rasa:3.6.20-full
+    image: rasa/rasa:3.4.18-full
     container_name: rasa
     command: run --enable-api --cors "*" --debug
     depends_on:
