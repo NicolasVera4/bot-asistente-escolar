@@ -180,4 +180,3 @@ telegram:
 - **Ambiente:** Docker containers
 - **Persistencia:** PostgreSQL (opcional)
 
-> 💡 **Tip:** No es necesario instalar Rasa localmente, todo el desarrollo y ejecución se maneja através de contenedores Docker.
