@@ -1,13 +1,21 @@
 version: "3.1"
-
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
+- rule: responder saludo
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+    - intent: greet
+    - action: utter_greet
 
-- rule: Say 'I am a bot' anytime the user challenges
+- rule: responder despedida
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: responder agradecimiento
+  steps:
+    - intent: thank
+    - action: utter_thank
+
+- rule: responder quién sos
+  steps:
+    - intent: who_are_you
+    - action: utter_who_are_you

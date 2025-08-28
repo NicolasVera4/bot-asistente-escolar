@@ -1,91 +1,99 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
+    - hola
+    - hola, qué tal?
+    - buenas
+    - buen día
+    - buenas tardes
+    - buenas noches
+    - ey
+    - qué onda
+    - cómo va?
     - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
 
 - intent: goodbye
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
+    - chau
+    - adiós
+    - nos vemos
+    - hasta luego
+    - hasta la próxima
+    - me voy
+    - hablamos después
     - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - hasta pronto
 
 - intent: affirm
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - sí
+    - claro
+    - correcto
+    - exacto
+    - obvio
+    - de una
+    - afirmativo
+    - seguro que sí
+    - dale
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - para nada
+    - negativo
+    - nunca
+    - no quiero
+    - no gracias
+    - ni ahí
+    - nop
 
 - intent: mood_great
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - estoy muy bien
+    - todo genial
+    - excelente
+    - fantástico
+    - me siento muy feliz
+    - contento
+    - con mucha energía
+    - bárbaro
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - estoy mal
+    - me siento triste
+    - estoy enojado
+    - cansado
+    - con estrés
+    - malísimo
+    - no tengo ganas
+    - pésimo
 
-- intent: bot_challenge
+- intent: ask_bot
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - qué podes hacer?
+    - cuáles son tus funciones?
+    - para qué servís?
+    - en qué me podés ayudar?
+    - qué cosas sabes?
+    - qué hacés?
+
+- intent: thank
+  examples: |
+    - gracias
+    - muchas gracias
+    - te agradezco
+    - mil gracias
+    - gracias genio
+    - gracias crack
+    - se agradece
+
+- intent: who_are_you
+  examples: |
+    - quién sos?
+    - cómo te llamás?
+    - qué sos?
+    - sos humano?
+    - sos un bot?
+    - hablame de vos

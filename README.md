@@ -53,7 +53,7 @@ Este comando generará un nuevo modelo en la carpeta `models/`.
 Inicia todos los servicios necesarios:
 
 ```bash
-docker compose up
+docker compose up -d
 ```
 
 Esto iniciará los siguientes servicios:
